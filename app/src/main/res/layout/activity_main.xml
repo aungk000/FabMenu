@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.aungkooo.fabmenutest.MainActivity">
+
+    <me.aungkooo.fabmenu.FabMenu
+        android:id="@+id/fab_menu"
+        app:itemCount="three"
+        app:position="bottomRight"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_message"
+            app:backgroundTint="@color/white"
+            android:src="@drawable/ic_message"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|end"
+            app:useCompatPadding="true"
+            android:visibility="gone"
+            android:alpha="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_call"
+            app:backgroundTint="@color/white"
+            android:src="@drawable/ic_call"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|end"
+            app:useCompatPadding="true"
+            android:visibility="gone"
+            android:alpha="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_video"
+            app:backgroundTint="@color/white"
+            android:src="@drawable/ic_videocam"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|end"
+            app:useCompatPadding="true"
+            android:visibility="gone"
+            android:alpha="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_main"
+            app:fabSize="normal"
+            app:useCompatPadding="true"
+            android:src="@drawable/ic_add"
+            android:layout_gravity="bottom|end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </me.aungkooo.fabmenu.FabMenu>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FabMenu">
+        <attr name="itemCount" format="enum">
+            <enum name="two" value="0"/>
+            <enum name="three" value="1"/>
+        </attr>
+        <attr name="position" format="enum">
+            <enum name="bottomLeft" value="0"/>
+            <enum name="bottomRight" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
