@@ -5,5 +5,4 @@ This project shows using original fab for ease of use with FabMenu.
 
 Screenshot
 ----------
-
-<img src="screenshot/fabmenu_screenshot.png">
+![Screenshot](/screenshot/fabmenu_screenshot.png)
